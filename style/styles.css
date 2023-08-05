@@ -15,7 +15,7 @@ body {
 {
     position: relative;
     min-height: 100%;
-    background: url(.../images/cake.jpg);
+    background: src(/images/cake.jpg);
     background-size: cover;
 }
 
