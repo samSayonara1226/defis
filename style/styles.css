@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper
+{
+    position: relative;
+    min-height: 100%;
+    background: url(/images/cake.jpg);
+    background-size: cover;
+}
+
+/*Хедер сайда*/
+
+header
+{
+    background-color: #242424;
+    position: fixed;
+    top:0;
+    height: 60px; 
+    width: 100%;
+}
+
+.name {
+  font-family: Handjet;
+  font-size: 45px;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav
+{
+    display: flex;
+    color: #ffffff;
+    justify-content: right;
+    margin-top: -45px;
+}
+
+.nav a
+{
+    margin-right: 10px;
+}
+
+.nav h2
+{
+    font-family: Roboto Mono;
+    font-size: 25px;
+}
+
+
+/*внутрянка сайта*/
+
+.content
+{
+    padding-bottom: 90px;
+}
+
+.weAre
+{
+    position: fixed;
+    background-color: #242424;
+    display: flex;
+    margin: 100px;
+    width: 60%;
+    height: 70%;
+    justify-content: space-between;
+
+    font-family: Roboto Mono;
+    color: white;
+}
+
+.our
+{
+    position: relative;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dima
+{
+    margin: 50px;
+}
+
+.photoDima
+{
+    display: block;
+    margin-left: 60px;
+    height: 200px;
+    width: auto;
+}
+
+.nameD
+{
+    font-size: large;
+}
+
+.textD
+{
+    text-align: center;
+}
+
+/*Футер сайта*/
+
+.footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #242424;
+}
+
+.footerText
+{
+    color: aliceblue;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+
+.myName
+{
+    text-decoration: dotted;
+    color: rgb(255, 0, 255);
+}
